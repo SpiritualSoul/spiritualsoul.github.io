@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+	margin: 1.4% 0.2%;
+	padding: 0;
+	box-sizing: border-box;
+	/*border: 1px solid black;*/
+}
+
+html {
+	height: 100%;
+	font-family: 'Verdana';
+	color: white;
+	background: black;
+}
+
+body {
+	height: 100%;
+}
+
+a {
+	color: aquamarine;
+	font-size: 16px;
+	text-decoration: underline; 
+}
+
+
+/* footer */
+
+footer {
+	/*border: 5px solid yellow;*/
+	display: block;
+	bottom: 0;
+	position: sticky;
+	z-index: 1;
+}
+
+footer i {
+	color: gray;
+}
+
+footer h6 {
+	text-align: right;
+	color: gray;
+	font-size: 15px;
+}
+
+.footer-container {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+.footer-a {
+	display: inline-flex;
+	justify-content: flex-end;
+}
+
+
+/* main */
+
+main {
+	/*scroll-margin-top: ;*/
+	text-align: center;
+}
+
+#one {
+	scroll-snap-type: y;
+	scroll-margin-top: 100px;
+}
+
+#two {
+	scroll-snap-type: y;
+	scroll-margin-top: 100px;
+}
+
+#three {
+	scroll-snap-type: y;
+	scroll-margin-top: 100px;
+}
+
+
+
+/* contents */
+
+/* content1 */
+
+.content-a {
+	/*border: 5px solid green;*/
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+
+.content-a h2 {
+	font-size: 50px;
+	font-weight: normal;
+}
+
+/* content2 */
+
+.content-b {
+	/*border: 5px solid magenta;*/
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.content-b h3,
+.content-c h3 {
+	font-size: 42px;
+	font-weight: 300;
+}
+
+.content-b p {
+	font-size: 21px;
+	color: gray;
+}
+
+
+/* content3 */
+
+.content-c {
+	/*border: 5px solid blue;*/
+	display: flex;
+	flex-flow: column wrap;
+	align-content: center;
+}
